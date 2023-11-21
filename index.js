@@ -13,7 +13,7 @@ const Todo = require("./models/Todo");
 app.use(cors())
 app.use(bodyParser.json())
 
-const dbURI = "mongodb+srv://test:12345@cluster0.xekq0gn.mongodb.net/?retryWrites=true&w=majority"
+const dbURI = "mongodb+srv://test:12345@cluster0.0fsuat4.mongodb.net/?retryWrites=true&w=majority"
 mongoose
     .connect(dbURI, {
 
